@@ -16,12 +16,6 @@
     "src",
     "lib"
   ],
-  "lint-staged": {
-    "{{src,specs,scripts,examples/**/src,experiments/**/src}/**/*.{js,json,css},*.{js,json}}": [
-      "prettier-eslint --print-width 100 --trailing-comma es5 --single-quote --write",
-      "git add"
-    ]
-  },
   "peerDependencies": {
     "webpack": "^2.0.0 || ^3.0.0 || ^4.0.0"
   },
@@ -90,17 +84,6 @@
         ]
       }
     }
-  },
-  "ava": {
-    "files": [],
-    "source": [
-      "src/**/*.js"
-    ],
-    "concurrency": 5,
-    "failFast": false,
-    "require": [
-      "babel-register"
-    ],
-    "babel": "inherit"
   }
+
 }
