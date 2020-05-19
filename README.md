@@ -1,6 +1,6 @@
 # AutoDllPlugin
 
-![](https://travis-ci.com/crofys/auto-dell-plugin.svg?branch=master)
+[![Build Status](https://travis-ci.com/crofys/auto-dell-plugin.svg?branch=master)](https://travis-ci.com/crofys/auto-dell-plugin)
 
 > fork [autodll-webpack-plugin](https://www.npmjs.com/package/autodll-webpack-plugin)  由于HtmlWebpackPlugins 插件hook修改  无法自动注入生成的dll文件 重写并修复注入html部分
 

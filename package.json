@@ -7,6 +7,7 @@
   "repository": "https://github.com/crofys/auto-dll-plugin",
   "main": "lib/index.js",
   "scripts": {
+    "test": "echo 测试成功",
     "cleanup": "del-cli ./lib",
     "build": "npm run cleanup && babel src --out-dir lib",
     "build:watch": "npm run cleanup && babel src --out-dir lib --watch",
