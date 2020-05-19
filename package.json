@@ -9,7 +9,8 @@
   "scripts": {
     "cleanup": "del-cli ./lib",
     "build": "npm run cleanup && babel src --out-dir lib",
-    "build:watch": "npm run cleanup && babel src --out-dir lib --watch"
+    "build:watch": "npm run cleanup && babel src --out-dir lib --watch",
+    "push": "node ./scripts/index.js"
   },
   "files": [
     "src",
@@ -28,10 +29,12 @@
     "bluebird": "^3.5.0",
     "del": "^3.0.0",
     "find-cache-dir": "^1.0.0",
+    "inquirer": "^7.1.0",
     "lodash": "^4.17.4",
     "make-dir": "^1.0.0",
     "memory-fs": "^0.4.1",
     "read-pkg": "^2.0.0",
+    "shelljs": "^0.8.4",
     "tapable": "^1.0.0",
     "webpack-merge": "^4.1.0",
     "webpack-sources": "^1.0.1"
