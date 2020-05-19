@@ -2,7 +2,7 @@
   "name": "@crofys/auto-dll-plugin",
   "author": "xuchangjian",
   "license": "MIT",
-  "version": "0.0.3",
+  "version": "1.0.0",
   "description": "Webpack's DllPlugin without the boilerplate",
   "repository": "https://github.com/crofys/auto-dll-plugin",
   "main": "lib/index.js",
