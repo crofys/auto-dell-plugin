@@ -66,5 +66,5 @@ async function start() {
   }
 
   console.log('推到远程');
-  exec('git push', { async: false });
+  exec('git push --all', { async: false });
 }
